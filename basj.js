@@ -6,3 +6,8 @@ process.stdin.on('data', (data) => {
     process.stdout.write(`${process.cwd()}`)
     process.stdout.write('\nprompt > ');
 })
+
+
+// process.stdin.on('pwd', (data) => {
+//     console.log(process.cwd()
+// })
